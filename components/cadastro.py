@@ -2,7 +2,7 @@ import streamlit as st
 import re
 from utils.validar_email import validar_email
 from datetime import date
-from controllers.alunos_controllers import select_aluno_por_email, select_aluno_por_cpf
+from controllers.alunos_controllers import select_aluno_por_email, select_aluno_por_email
 
 @st.dialog("Formulário de Cadastro de Alunos", width="large")
 def cadastrar_aluno():
